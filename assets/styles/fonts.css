@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ArodoraPro'), url('../fonts/ArodoraPro-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Yes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Yes siree bob'), url('../fonts/Yes siree bob.ttf') format('truetype');
+}
