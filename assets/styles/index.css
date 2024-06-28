@@ -14,6 +14,10 @@
   --green-dark: #465644;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--bg-color);
   overflow-x: hidden;
@@ -713,6 +717,10 @@ span {
   cursor: pointer;
   position: relative;
   transition: 0.4s color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: var(--green-dark);
 }
 .form form .form__btns .btn_can.btn--error {
   color: rgb(220, 60, 60);
@@ -756,6 +764,10 @@ span {
   cursor: pointer;
   position: relative;
   z-index: 1000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: var(--green-dark);
 }
 .form form .form__btns .form_transfer::before {
   content: "";
@@ -796,6 +808,10 @@ span {
   cursor: pointer;
   z-index: 1000;
   position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: var(--green-dark);
 }
 .form form .form__btns .submit-wrapper {
   z-index: 10;
@@ -1017,9 +1033,9 @@ span {
     top: 0%;
   }
   .time .time_round h3 {
-    padding-top: 20px;
-    line-height: 76.79px;
-    font-size: 64px;
+    padding-top: 12px;
+    line-height: 70.79px;
+    font-size: 58px;
   }
   #photo5 .photo-text {
     font-size: 13px;
@@ -1079,6 +1095,8 @@ span {
   .form h2::before {
     width: 40px;
     height: 46px;
+    left: -4%;
+    top: 3%;
   }
   .form .form__for {
     margin-bottom: 60px;
