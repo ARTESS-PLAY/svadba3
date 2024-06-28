@@ -67,7 +67,7 @@ span {
     &::before {
         content: '';
         display: block;
-        background-image: url('../img/photobg.png');
+        background-image: url('../img/photobg.webp');
         width: 100%;
         height: 100%;
         background-position: center;
@@ -111,7 +111,7 @@ span {
         margin-left: auto;
         margin-right: auto;
         background-color: var(--green-dark);
-        mask-image: url('../img/star.png');
+        mask-image: url('../img/star.webp');
         mask-repeat: no-repeat;
         mask-position: center;
         mask-size: contain;
@@ -202,7 +202,7 @@ span {
                 padding-bottom: 100%;
                 margin-left: auto;
                 margin-right: auto;
-                mask-image: url('../img/heart-small.png');
+                mask-image: url('../img/heart-small.webp');
                 mask-repeat: no-repeat;
                 mask-position: center;
                 mask-size: contain;
@@ -242,7 +242,7 @@ span {
             height: 96px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/star.png');
+            mask-image: url('../img/star.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -263,7 +263,7 @@ span {
             width: 100%;
             height: 120%;
             background-color: var(--brown);
-            mask-image: url('../img/heart.png');
+            mask-image: url('../img/heart.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -284,7 +284,7 @@ span {
             margin-left: auto;
             margin-right: auto;
             background-color: var(--brown);
-            mask-image: url('../img/line_bold.png');
+            mask-image: url('../img/line_bold.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -329,7 +329,7 @@ span {
         margin-left: auto;
         margin-right: auto;
         background-color: var(--brown);
-        mask-image: url('../img/round.png');
+        mask-image: url('../img/round.webp');
         mask-repeat: no-repeat;
         mask-position: center;
         mask-size: contain;
@@ -355,7 +355,7 @@ span {
             height: 203px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/heart.png');
+            mask-image: url('../img/heart.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -440,7 +440,7 @@ span {
         margin-left: auto;
         margin-right: auto;
         background-color: var(--brown);
-        mask-image: url('../img/paint.png');
+        mask-image: url('../img/paint.webp');
         mask-repeat: no-repeat;
         mask-position: center;
         mask-size: contain;
@@ -493,7 +493,7 @@ span {
         .paint__content {
             mask-image: unset;
             background-color: unset;
-            background-image: url('../img/paint_white.png');
+            background-image: url('../img/paint_white.webp');
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
@@ -521,7 +521,7 @@ span {
         bottom: -20%;
         width: 218px;
         height: 252px;
-        background-image: url('../img/bag.png');
+        background-image: url('../img/bag.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -549,7 +549,7 @@ span {
         top: -30%;
         width: 358.89px;
         height: 529.09px;
-        background-image: url('../img/car.png');
+        background-image: url('../img/car.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -571,7 +571,7 @@ span {
             height: 123px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/star.png');
+            mask-image: url('../img/star.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -597,7 +597,7 @@ span {
             height: 95px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/star2.png');
+            mask-image: url('../img/star2.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -663,7 +663,7 @@ span {
                     margin-left: auto;
                     margin-right: auto;
                     background-color: var(--brown);
-                    mask-image: url('../img/line_small.png');
+                    mask-image: url('../img/line_small.webp');
                     mask-repeat: no-repeat;
                     mask-position: center;
                     mask-size: contain;
@@ -706,7 +706,7 @@ span {
                     width: 155%;
                     padding-bottom: 80%;
                     background-color: var(--brown);
-                    mask-image: url('../img/round.png');
+                    mask-image: url('../img/round.webp');
                     mask-repeat: no-repeat;
                     mask-position: center;
                     mask-size: 100%;
@@ -744,7 +744,7 @@ span {
                     width: 120%;
                     padding-bottom: 60%;
                     background-color: var(--brown);
-                    mask-image: url('../img/line_small.png');
+                    mask-image: url('../img/line_small.webp');
                     mask-repeat: no-repeat;
                     mask-position: center;
                     mask-size: 100%;
@@ -785,7 +785,7 @@ span {
                     width: 120%;
                     padding-bottom: 60%;
                     background-color: var(--brown);
-                    mask-image: url('../img/btn-loading.png');
+                    mask-image: url('../img/btn-loading.webp');
                     mask-repeat: no-repeat;
                     mask-position: center;
                     mask-size: 100%;
@@ -825,7 +825,7 @@ span {
             height: 105px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/star2.png');
+            mask-image: url('../img/star2.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -857,7 +857,7 @@ span {
             height: 64px;
             margin-left: auto;
             margin-right: auto;
-            mask-image: url('../img/star2.png');
+            mask-image: url('../img/star2.webp');
             mask-repeat: no-repeat;
             mask-position: center;
             mask-size: contain;
@@ -1158,6 +1158,10 @@ span {
                     font-size: 32px;
                     line-height: 51px;
                     margin-bottom: 20px;
+                    &::before {
+                        top: -40%;
+                        transform: translate(-50%, -48%);
+                    }
                 }
                 input[type='submit'] {
                     font-size: 32px;
