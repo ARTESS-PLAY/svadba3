@@ -169,11 +169,20 @@ span {
   position: relative;
 }
 .people .people__photo {
+  width: 100%;
+  margin-top: -300px;
+  margin-bottom: -300px;
   margin-left: auto;
   margin-right: auto;
-  transform: rotate(12deg);
-  width: 495px;
-  height: 555px;
+  display: flex;
+  justify-content: center;
+}
+.people .people__photo img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 .people #photo3-star {
   width: 118px;
@@ -331,11 +340,21 @@ span {
   flex-direction: row;
   gap: 60px;
 }
+.friends p {
+  width: 60%;
+}
 .friends .friends_photo {
-  transform: rotate(7deg);
-  width: 412px;
-  min-width: 412px;
-  height: 462px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: -250px;
+}
+.friends .friends_photo img {
+  width: 200%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .round {
@@ -964,8 +983,8 @@ span {
     max-width: 343px;
   }
   .people .people__photo {
-    width: 250px;
-    height: 270px;
+    margin-top: -100px;
+    margin-bottom: -100px;
   }
   .people #photo3-star {
     width: 73px;
@@ -1019,9 +1038,7 @@ span {
     gap: 12px;
   }
   .friends .friends_photo {
-    width: 173px;
-    min-width: 173px;
-    height: 200px;
+    margin-top: -90px;
   }
   .round__wrapper {
     width: 100%;

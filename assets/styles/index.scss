@@ -163,11 +163,18 @@ span {
 .people {
     position: relative;
     .people__photo {
+        width: 100%;
+        margin-top: -300px;
+        margin-bottom: -300px;
         margin-left: auto;
         margin-right: auto;
-        transform: rotate(12deg);
-        width: 495px;
-        height: 555px;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
     }
 
     #photo3-star {
@@ -317,12 +324,20 @@ span {
         flex-direction: row;
         gap: 60px;
     }
+    p {
+        width: 60%;
+    }
 
     .friends_photo {
-        transform: rotate(7deg);
-        width: 412px;
-        min-width: 412px;
-        height: 462px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        margin-top: -250px;
+        img {
+            width: 200%;
+            object-fit: contain;
+            object-position: center;
+        }
     }
 }
 
@@ -947,8 +962,8 @@ span {
 
     .people {
         .people__photo {
-            width: 250px;
-            height: 270px;
+            margin-top: -100px;
+            margin-bottom: -100px;
         }
 
         #photo3-star {
@@ -1017,9 +1032,7 @@ span {
         }
 
         .friends_photo {
-            width: 173px;
-            min-width: 173px;
-            height: 200px;
+            margin-top: -90px;
         }
     }
 
